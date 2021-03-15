@@ -37,9 +37,6 @@ body {
 
 .login-container {
     display: flex;
-    position: relative;
-    justify-content: flex-end;
-    right: 100px;
     align-items: center;
     text-align: center;
 }
@@ -176,12 +173,7 @@ a:hover {
 .btn:hover{
     background-position: right;
 }
-@media screen and (max-width:1150px){
-    .login-container{
-        right:0px;
-    }
-    
-}
+
 
 @media screen and (max-width:1050px){
     .container{
