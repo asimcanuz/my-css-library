@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;900&family=Open+Sans:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+
+body {
+  background-color: #F2F5FE;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-news {
+  -webkit-box-shadow: 0px 15px 30px -20px #d4dcf3;
+  -moz-box-shadow: 0px 15px 30px -20px #d4dcf3;
+  box-shadow: 0px 15px 30px -20px #d4dcf3;
+  font-family: "Open Sans", sans-serif;
+  margin: 30px;
+  width: 431px;
+  height: 391px;
+  display: flex;
+  flex-direction: column;
+  padding: 60px;
+  border-radius: 10px;
+  background-color: #101439;
+  color: #FFFFFF;
+}
+.card-news .news-type {
+  font-weight: normal;
+  letter-spacing: 2px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.card-news .card-heading {
+  font-family: "Merriweather";
+  font-weight: normal;
+  font-size: 22px;
+  margin-bottom: 13px;
+}
+.card-news .card-content {
+  margin-bottom: 55px;
+  font-size: 18px;
+  font-weight: normal;
+}
+.card-news .card-button {
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #101439;
+  padding: 25px 110px;
+}
+
+.card-quoatition {
+  -webkit-box-shadow: 0px 15px 30px -20px #d4dcf3;
+  -moz-box-shadow: 0px 15px 30px -20px #d4dcf3;
+  box-shadow: 0px 15px 30px -20px #d4dcf3;
+  font-family: "Merriweather";
+  padding: 65px 97px 85px 65px;
+  margin: 30px;
+  width: 505px;
+  height: 510px;
+  background-color: #FFFFFF;
+}
+.card-quoatition .card-quotes {
+  font-family: "Merriweather";
+  font-weight: bold;
+  font-size: 65px;
+  margin-bottom: 30px;
+}
+.card-quoatition .card-content {
+  font-family: "Merriweather";
+  font-weight: normal;
+  font-size: 22px;
+  margin-bottom: 50px;
+}
+.card-quoatition .author {
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.card-slider {
+  width: 919px;
+  height: 267px;
+  background-color: #FFFFFF;
+  margin: 30px;
+  -webkit-box-shadow: 0px 15px 30px -20px #d4dcf3;
+  -moz-box-shadow: 0px 15px 30px -20px #d4dcf3;
+  box-shadow: 0px 15px 30px -20px #d4dcf3;
+  display: flex;
+  padding: 25px;
+}
+.card-slider > * {
+  font-family: "Merriweather";
+  width: 422px;
+  height: 217px;
+  padding: 40px 70px 40px 40px;
+}
+.card-slider .previous {
+  background-color: #F2F5FE;
+  margin-right: 25px;
+}
+.card-slider .previous button {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.card-slider .previous button img {
+  margin-right: 10px;
+}
+.card-slider .previous button span {
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+.card-slider .previous .slider-text {
+  font-size: 18px;
+}
+.card-slider .next {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+  margin-right: 25px;
+}
+.card-slider .next > * {
+  background-color: white;
+}
+.card-slider .next button {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.card-slider .next button img {
+  margin-left: 10px;
+}
+.card-slider .next button span {
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+.card-slider .next .slider-text {
+  font-size: 18px;
+}
+
+/*# sourceMappingURL=style.css.map */
