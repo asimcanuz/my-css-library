@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+$font-color: #000;
+$card-background-color: #fff;
+$border: 1px solid #e5e5e5;
+$border-radius:10px;
+$box-shadow: 0px 24px 74px -20px rgba(130, 148, 173, .44);
+
+html {
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: #e5e5e5;
+
+}
+
+button {
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+
+}
+
+.nearby-friends-card {
+    margin: 60px;
+    width: 666px;
+    height: 368px;
+    display: flex;
+    flex-direction: column;
+    background-color: $card-background-color;
+    padding: 60px 50px;
+    border-radius: $border-radius;
+    box-shadow: $box-shadow;
+
+    .nearby-friends-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 33px;
+
+        h3 {
+            margin: 0;
+            font-size: 22px;
+            font-weight: bold;
+
+        }
+
+        button {
+            background-color: #fff;
+            border: none;
+            outline: none;
+            text-decoration: underline;
+            font-weight: normal;
+            font-size: 16px;
+        }
+
+
+    }
+
+    .nearby-friends-list {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+
+        .nearby {
+            width: 135px;
+            height: 189px;
+
+
+            border: $border;
+            border-radius: $border-radius;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+
+            .nearby-info {
+                padding: 25px 35px;
+
+                img {
+                    border-radius: 50%;
+                }
+
+                h3 {
+                    text-align: center;
+                    font-size: 18px;
+                    font-weight: 500;
+
+                }
+
+            }
+
+            button {
+
+                background-color: #000;
+                color: white;
+                border: none;
+                outline: none;
+                border-radius: 50%;
+                display: flex;
+                padding: 10px;
+                justify-content: center;
+                position: relative;
+                top: -12px;
+            }
+
+        }
+    }
+
+}
+
+.contact-card {
+    background-color: $card-background-color;
+    box-shadow: $box-shadow;
+    border-radius: 10px;
+    padding: 50px;
+    width: 451px;
+    height: 653px;
+    display: flex;
+    flex-direction: column;
+    margin: 200px 0 0 30px;
+
+    .contact-header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 20px;
+
+        h3 {
+            font-size: 22px;
+            font-weight: 700;
+        }
+
+        .contact-number {
+            border: 1px solid black;
+            border-radius: 25px;
+            font-weight: 700;
+
+            width: 57px;
+            height: 39px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 10px;
+
+            p {
+                font-size: 22px;
+            }
+        }
+    }
+
+    .contact-person-cards {
+        display: flex;
+        flex-direction: column;
+        width: 351px;
+
+        .person-info-card {
+            margin-bottom: 30px;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            justify-content: space-between;
+
+            .person-info {
+                display: flex;
+                align-items: center;
+
+                img {
+                    width: 66px;
+                    height: 66px;
+                    border-radius: 50%
+                }
+
+                .person-name-country {
+                    margin-left: 20px;
+
+                    h3 {
+                        margin: 0;
+                    }
+
+                    p {
+                        margin: 3px 0px;
+                    }
+                }
+
+            }
+
+            button {
+                background-color: #fff;
+                border: none;
+                outline: none;
+            }
+        }
+
+    }
+
+    .view-everyone {
+        width: 165px;
+        height: 55px;
+        background-color: #000;
+        color: #fff;
+        border-radius: 60px;
+        margin-top: 20px;
+        border: none;
+        outline: none;
+        font-size: 16px;
+        font-weight: 500;
+        padding: 8px 16px;
+
+
+    }
+
+}
